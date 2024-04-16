@@ -13,7 +13,7 @@ def main():
     bg_img = pg.image.load("fig/pg_bg.jpg")
     bg_img2 = pg.transform.flip(bg_img,True,False)
     kk_img = pg.image.load("fig/3.png")
-    kk_img2 = pg.transform.flip(kk_img,True,False)
+    kk_img = pg.transform.flip(kk_img,True,False)
 
     kk_rct = kk_img2.get_rect()
     kk_rct.center=300,200
